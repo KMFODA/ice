@@ -25,7 +25,7 @@ import ulid
 
 from more_itertools import windowed
 from structlog.stdlib import get_logger
-from transformers import GPT2TokenizerFast
+# from transformers import GPT2TokenizerFast
 
 log = get_logger()
 
