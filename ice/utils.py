@@ -391,9 +391,9 @@ def max_by_value(
     return max(d.items(), key=lambda x: key(x[1]))
 
 
-@cache
-def make_gpt2_tokenizer() -> GPT2TokenizerFast:
-    return GPT2TokenizerFast.from_pretrained("gpt2")
+#@cache
+#def make_gpt2_tokenizer() -> GPT2TokenizerFast:
+#    return GPT2TokenizerFast.from_pretrained("gpt2")
 
 
 def n_tokens(text: str) -> int:
